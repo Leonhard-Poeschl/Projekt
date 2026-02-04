@@ -1,0 +1,27 @@
+/*Seite Hintergrund*/
+body {
+    background-color: rgb(82, 173, 133);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/*Knöpfe*/
+button {
+    width: 150px;
+    align-self: center;
+    margin: 20px;
+}
+/*Hintergrund für die Knöpfe*/
+.bdiv {
+    align-self: center;
+    background-color: aliceblue;
+    width: 700px;
+    height: 65px;
+}
+/*Text feld*/
+.tdiv {
+    align-self: center;
+    background-color: rgb(202, 230, 255);
+    width: 600px;
+    height: auto;
+}

@@ -1,0 +1,41 @@
+{
+    "leeresTemplate/Komentare": {
+        "worte": "Text Inhalt/ Erzähling für den Spieler",
+        "KnopfL": "Name der auf dem Knopfangezeigt wird. Linker Knopf",
+        "NächsterL": "ID des Nächsten Raumes. Linker Knopf",
+        "KnopfM": "Name der auf dem Knopfangezeigt wird. Mittlerer Knopf",
+        "NächsterM": "ID des Nächsten Raumes. Mittlerer Knopf",
+        "KnopfR": "Name der auf dem Knopfangezeigt wird. Rechter Knopf",
+        "NächsterR": "ID des Nächsten Raumes. Rechter Knopf"
+    },
+
+    "start": {
+        "worte": "Wilkommen im Test",
+        "KnopfL": "Knopf Links Im Start",
+        "NächsterL": "NächsterRaumLinks",
+        "KnopfM": "Hir ist der Testraum",
+        "NächsterM": "Testraum",
+        "KnopfR": "Knopf Rechts Im Start",
+        "NächsterR": "NächsterRaumRechts"
+    },
+
+    "Testraum": {
+        "worte": "Wilkommen im Testraum danke fürs Testen",
+        "KnopfL": "Knopf Links",
+        "NächsterL": "NächsterRaumLinks",
+        "KnopfM": "Hier ist der Nächste Raum zum Testen",
+        "NächsterM": "zweitertestraum",
+        "KnopfR": "Knopf Rechts",
+        "NächsterR": "NächsterRaumRechts"
+    },
+
+    "zweitertestraum": {
+        "worte": "Worte",
+        "KnopfL": "KnopfL",
+        "NächsterL": "NächsterL",
+        "KnopfM": "KnopfM",
+        "NächsterM": "NächsterM",
+        "KnopfR": "KnopfR",
+        "NächsterR": "NächsterR"
+    }
+}
