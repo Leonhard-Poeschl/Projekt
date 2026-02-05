@@ -6,20 +6,48 @@
     <title>Adventure</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+
     <h1>Text Adventure Framework</h1>
 <!--Knöpfe-->
-    <div class="bdiv">
-        <button id="knopfLinks"></button>
-        <button id="knopfMitte"></button>
-        <button id="knopfRechts"></button>
-    </div>
-<!--Text Anzeige-->
-    <div class="tdiv">
-    <p id="anzeige"></p>
+<div class="bdiv">
+    <button class="knopf" id="knopfLinks"></button>
+    <button class="knopf" id="knopfMitte"></button>
+    <button class="knopf" id="knopfRechts"></button>
+</div>
+
+<!--Text Anzeige, Inventar und Menü-->
+<div class="anzeige">
+    <!--Menü-->
+    <div class="seiten">
+        <h3>Menü</h3>
+            <button id="Returne">Zurück zum Start</button>
+            <p>Text</p>
+            <p style="text-align: start;">Größe in px: <input id="input" type="number"></p>
+            <p style="text-align: start;">Farbe: <select id="textfarbe">
+                <option value="black">Schwarz</option>
+                <option value="blue">Blau</option>
+                <option value="green">Grün</option>
+                <option value="red">Rot</option>
+            </select></p>
+            <p style="text-align: start;">Gesamtgröße in %: <input id="sitesize" type="number"></p>
+        </div>
+
+        <!--Text-->
+        <div class="tdiv">
+        <p id="anzeige"></p>
+        </div>
+
+        <!--Inventar-->
+        <div class="seiten">
+            <h3>Inventar</h3>
+        </div>
     </div>
 
 <!--Verknüpfung mit dem JS-->
-    <script src="./script.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/optionen.js"></script>
+
 </body>
 </html>

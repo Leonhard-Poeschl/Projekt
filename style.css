@@ -1,27 +1,55 @@
-/*Seite Hintergrund*/
+/*die ganze Seite*/
 body {
     background-color: rgb(82, 173, 133);
     display: flex;
     flex-direction: column;
     text-align: center;
+    min-width: fit-content;
+    min-height: fit-content;
+    scale: 100%;
 }
+
 /*Knöpfe*/
-button {
-    width: 150px;
+.knopf {
+    font-weight: bold;
+    font-size: x-large;
     align-self: center;
     margin: 20px;
 }
+
 /*Hintergrund für die Knöpfe*/
 .bdiv {
     align-self: center;
-    background-color: aliceblue;
-    width: 700px;
-    height: 65px;
+    background-color: rgb(178, 122, 179);
+    min-width: 700px;
+    min-height: 65px;
 }
+
+/*Hauptanzeige// Menü, Text, Inventar // Box*/
+.anzeige {
+    display: flex;
+    align-self: center;
+    background-color: rgba(255, 0, 0, 0.038);
+    min-width: 10px;
+    min-height: 10px;
+}
+
+/*seiten*/
+.seiten {
+    background-color: bisque;
+    min-width: 200px;
+    min-height: 100px;
+}
+
 /*Text feld*/
 .tdiv {
     align-self: center;
-    background-color: rgb(202, 230, 255);
-    width: 600px;
+    background-color: rgb(185, 223, 255);
+    min-width: 400px;
     height: auto;
+}
+
+/*Textfeld*/
+input {
+    width: 90px;
 }

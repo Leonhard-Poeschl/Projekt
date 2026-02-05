@@ -2,6 +2,7 @@
 const knopfLinks = document.getElementById("knopfLinks");
 const knopfMitte = document.getElementById("knopfMitte");
 const knopfRechts = document.getElementById("knopfRechts");
+const ZurückStart = document.getElementById("Returne");
 
 //Textausgabe
 const anzeige = document.getElementById("anzeige");
@@ -12,7 +13,7 @@ var idlinks = "start";
 var idmitte = "start";
 var idrechts = "start";
 
-//Initialisirung der Knopf Texte
+//Start
 function erststart() {
     knopfLinks.textContent = "Start";
     knopfMitte.textContent = "Start";
@@ -20,9 +21,9 @@ function erststart() {
 }
 erststart();
 
-//Navigations Logik durch das Level
+//Navigations Logik von Level zu Level
 function JSONtoText(){
-    fetch("text.json") //Greift sich die JSON Datei
+    fetch("json/text.json") //Greift sich die JSON Datei
     .then(res => res.json())  // JSON parsen
     .then(data => { // Variablen aus JSON
         //Abrufen des gesamt Eintrages
@@ -39,7 +40,7 @@ function JSONtoText(){
         const { NächsterR } = text
 
         // Daten in <p>/anzeige schreiben
-        anzeige.innerText = `${worte}`;
+        anzeige.innerHTML = worte;
         //Umbenennen der knöpfe
         knopfLinks.textContent = `${KnopfL}`;
         knopfMitte.textContent = `${KnopfM}`;
@@ -66,5 +67,10 @@ knopfMitte.addEventListener("click", () => {
 //Rechter Knopf
 knopfRechts.addEventListener("click", () => {
     id = idrechts;
+    JSONtoText();
+});
+//Zurück zum Start Knopf
+ZurückStart.addEventListener("click", () => {
+    id = "start";
     JSONtoText();
 });

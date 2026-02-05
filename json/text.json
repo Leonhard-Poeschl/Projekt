@@ -1,41 +1,53 @@
 {
     "leeresTemplate/Komentare": {
         "worte": "Text Inhalt/ Erzähling für den Spieler",
+
         "KnopfL": "Name der auf dem Knopfangezeigt wird. Linker Knopf",
         "NächsterL": "ID des Nächsten Raumes. Linker Knopf",
+
         "KnopfM": "Name der auf dem Knopfangezeigt wird. Mittlerer Knopf",
         "NächsterM": "ID des Nächsten Raumes. Mittlerer Knopf",
+
         "KnopfR": "Name der auf dem Knopfangezeigt wird. Rechter Knopf",
         "NächsterR": "ID des Nächsten Raumes. Rechter Knopf"
     },
 
     "start": {
-        "worte": "Wilkommen im Test",
+        "worte": "Das ist ein Text zum testen von Items und wie ich sie Interagierbar machen kann im Text",
+
         "KnopfL": "Knopf Links Im Start",
         "NächsterL": "NächsterRaumLinks",
+
         "KnopfM": "Hir ist der Testraum",
         "NächsterM": "Testraum",
+
         "KnopfR": "Knopf Rechts Im Start",
         "NächsterR": "NächsterRaumRechts"
     },
 
     "Testraum": {
         "worte": "Wilkommen im Testraum danke fürs Testen",
-        "KnopfL": "Knopf Links",
-        "NächsterL": "NächsterRaumLinks",
+
+        "KnopfL": "Testraum für Textknöpfe",
+        "NächsterL": "TestRaumFürTextKnöpfe",
+        
         "KnopfM": "Hier ist der Nächste Raum zum Testen",
         "NächsterM": "zweitertestraum",
+
         "KnopfR": "Knopf Rechts",
         "NächsterR": "NächsterRaumRechts"
     },
 
-    "zweitertestraum": {
-        "worte": "Worte",
-        "KnopfL": "KnopfL",
-        "NächsterL": "NächsterL",
-        "KnopfM": "KnopfM",
-        "NächsterM": "NächsterM",
-        "KnopfR": "KnopfR",
-        "NächsterR": "NächsterR"
+    "TestRaumFürTextKnöpfe": {
+        "worte": "Test",
+
+        "KnopfL": "Name der auf dem Knopfangezeigt wird. Linker Knopf",
+        "NächsterL": "ID des Nächsten Raumes. Linker Knopf",
+
+        "KnopfM": "Name der auf dem Knopfangezeigt wird. Mittlerer Knopf",
+        "NächsterM": "ID des Nächsten Raumes. Mittlerer Knopf",
+
+        "KnopfR": "Name der auf dem Knopfangezeigt wird. Rechter Knopf",
+        "NächsterR": "ID des Nächsten Raumes. Rechter Knopf"
     }
 }
