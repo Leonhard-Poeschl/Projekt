@@ -12,8 +12,9 @@ body {
 /*Knöpfe*/
 .knopf {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 20px;
     align-self: center;
+    max-width: 250px;
     margin: 20px;
 }
 
